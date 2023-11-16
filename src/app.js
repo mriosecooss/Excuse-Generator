@@ -1,11 +1,11 @@
 /* eslint-disable */
-import "bootstrap";
-import "./style.css";
-
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
-
-window.onload = function() {
+//import "bootstrap";
+//import "./style.css";
+//
+//import "./assets/img/rigo-baby.jpg";
+//import "./assets/img/4geeks.ico";
+//
+//window.onload = function() {
 
   let who = ['The dog', 'My grandma', 'His turtle', 'My bird'];
   let action = ['ate', 'peed', 'crushed', 'broke'];
@@ -21,11 +21,12 @@ window.onload = function() {
     return Who[numWho] + " " + Action[numAction] + " " + What[numWhat] + " " + When[numWhen] + " "
   }
   
-  function onLoad(){
-    var excuse = document.getElementById('excuse');
-    excuse.innerHTML = excuseGenerator(who, action, what, when);
-  }
-  window.onload = onLoad;
-  console.log("- - -");
-};
+  //function onLoad(){
+  //  var excuse = document.getElementById('excuse');
+  //  excuse.innerHTML = excuseGenerator(who, action, what, when);
+  //}
+  //window.onload = onLoad;
+  //console.log("- - -");
+//};
 
+console.log(excuseGenerator(who, action, what, when));
