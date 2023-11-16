@@ -23,7 +23,7 @@ window.onload = function() {
   
   function onLoad(){
     var excuse = document.getElementById('excuse');
-    excusa.innerHTML = excuseGenerator(who, action, what, when);
+    excuse.innerHTML = excuseGenerator(who, action, what, when);
   }
   window.onload = onLoad;
   console.log("- - -");
